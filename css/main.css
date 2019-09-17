@@ -1,0 +1,43 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.graphic, .caption {
+ margin: 1em auto;
+}
+
+img  {
+  display: block;
+  margin: auto auto;
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+  
+.caption {
+  text-align: center;
+  margin: 2em auto;
+  font-weight: bold;
+}
